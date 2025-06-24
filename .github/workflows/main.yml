@@ -1,9 +1,5 @@
 name: CI/CD Demo
 
-- name: Use secret
-  run: echo "Using key ${{ secrets.DEPLOY_KEY }}"
-
-
 on:
   push:
     branches: [ main ]
@@ -46,4 +42,7 @@ jobs:
       name: prod
     steps:
       - run: echo "Simulating deploy to PROD"
+
+      - name: Use secret
+        run: echo "Using key ${{ secrets.DEPLOY_KEY }}"
 
