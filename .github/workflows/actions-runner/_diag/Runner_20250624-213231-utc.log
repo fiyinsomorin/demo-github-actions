@@ -1,0 +1,61 @@
+[2025-06-24 21:32:31Z INFO HostContext] No proxy settings were found based on environmental variables (http_proxy/https_proxy/HTTP_PROXY/HTTPS_PROXY)
+[2025-06-24 21:32:31Z INFO HostContext] Well known directory 'Bin': '/Users/fiyinsomorin/Desktop/demo-github-actions/.github/workflows/actions-runner/bin'
+[2025-06-24 21:32:31Z INFO HostContext] Well known directory 'Root': '/Users/fiyinsomorin/Desktop/demo-github-actions/.github/workflows/actions-runner'
+[2025-06-24 21:32:31Z INFO HostContext] Well known config file 'Credentials': '/Users/fiyinsomorin/Desktop/demo-github-actions/.github/workflows/actions-runner/.credentials'
+[2025-06-24 21:32:31Z INFO HostContext] Well known directory 'Bin': '/Users/fiyinsomorin/Desktop/demo-github-actions/.github/workflows/actions-runner/bin'
+[2025-06-24 21:32:31Z INFO HostContext] Well known directory 'Root': '/Users/fiyinsomorin/Desktop/demo-github-actions/.github/workflows/actions-runner'
+[2025-06-24 21:32:31Z INFO HostContext] Well known config file 'Runner': '/Users/fiyinsomorin/Desktop/demo-github-actions/.github/workflows/actions-runner/.runner'
+[2025-06-24 21:32:31Z INFO Listener] Runner is built for OSX (X64) - osx-x64.
+[2025-06-24 21:32:31Z INFO Listener] RuntimeInformation: Darwin 25.0.0 Darwin Kernel Version 25.0.0: Tue Jun 17 00:04:39 PDT 2025; root:xnu-12377.0.122.0.1~120/RELEASE_ARM64_T8103.
+[2025-06-24 21:32:31Z INFO Listener] Version: 2.316.1
+[2025-06-24 21:32:31Z INFO Listener] Commit: 9ac138d10eac15c71493f004f1b1bc919ead40de
+[2025-06-24 21:32:31Z INFO Listener] Culture: en-US
+[2025-06-24 21:32:31Z INFO Listener] UI Culture: en-US
+[2025-06-24 21:32:31Z INFO HostContext] Well known directory 'Bin': '/Users/fiyinsomorin/Desktop/demo-github-actions/.github/workflows/actions-runner/bin'
+[2025-06-24 21:32:31Z INFO HostContext] Well known directory 'Root': '/Users/fiyinsomorin/Desktop/demo-github-actions/.github/workflows/actions-runner'
+[2025-06-24 21:32:31Z INFO Listener] Validating directory permissions for: '/Users/fiyinsomorin/Desktop/demo-github-actions/.github/workflows/actions-runner'
+[2025-06-24 21:32:31Z INFO CommandLineParser] Parse
+[2025-06-24 21:32:31Z INFO CommandLineParser] Parsing 1 args
+[2025-06-24 21:32:31Z INFO CommandLineParser] parsing argument
+[2025-06-24 21:32:31Z INFO CommandLineParser] HasArgs: False
+[2025-06-24 21:32:31Z INFO CommandLineParser] Adding Command: run
+[2025-06-24 21:32:31Z INFO Listener] Arguments parsed
+[2025-06-24 21:32:31Z INFO Runner] ExecuteCommand
+[2025-06-24 21:32:31Z INFO ConfigurationStore] currentAssemblyLocation: /Users/fiyinsomorin/Desktop/demo-github-actions/.github/workflows/actions-runner/bin/Runner.Listener.dll
+[2025-06-24 21:32:31Z INFO HostContext] Well known directory 'Bin': '/Users/fiyinsomorin/Desktop/demo-github-actions/.github/workflows/actions-runner/bin'
+[2025-06-24 21:32:31Z INFO ConfigurationStore] binPath: /Users/fiyinsomorin/Desktop/demo-github-actions/.github/workflows/actions-runner/bin
+[2025-06-24 21:32:31Z INFO HostContext] Well known directory 'Bin': '/Users/fiyinsomorin/Desktop/demo-github-actions/.github/workflows/actions-runner/bin'
+[2025-06-24 21:32:31Z INFO HostContext] Well known directory 'Root': '/Users/fiyinsomorin/Desktop/demo-github-actions/.github/workflows/actions-runner'
+[2025-06-24 21:32:31Z INFO ConfigurationStore] RootFolder: /Users/fiyinsomorin/Desktop/demo-github-actions/.github/workflows/actions-runner
+[2025-06-24 21:32:31Z INFO HostContext] Well known directory 'Bin': '/Users/fiyinsomorin/Desktop/demo-github-actions/.github/workflows/actions-runner/bin'
+[2025-06-24 21:32:31Z INFO HostContext] Well known directory 'Root': '/Users/fiyinsomorin/Desktop/demo-github-actions/.github/workflows/actions-runner'
+[2025-06-24 21:32:31Z INFO HostContext] Well known config file 'Runner': '/Users/fiyinsomorin/Desktop/demo-github-actions/.github/workflows/actions-runner/.runner'
+[2025-06-24 21:32:31Z INFO ConfigurationStore] ConfigFilePath: /Users/fiyinsomorin/Desktop/demo-github-actions/.github/workflows/actions-runner/.runner
+[2025-06-24 21:32:31Z INFO HostContext] Well known directory 'Bin': '/Users/fiyinsomorin/Desktop/demo-github-actions/.github/workflows/actions-runner/bin'
+[2025-06-24 21:32:31Z INFO HostContext] Well known directory 'Root': '/Users/fiyinsomorin/Desktop/demo-github-actions/.github/workflows/actions-runner'
+[2025-06-24 21:32:31Z INFO HostContext] Well known config file 'Credentials': '/Users/fiyinsomorin/Desktop/demo-github-actions/.github/workflows/actions-runner/.credentials'
+[2025-06-24 21:32:31Z INFO ConfigurationStore] CredFilePath: /Users/fiyinsomorin/Desktop/demo-github-actions/.github/workflows/actions-runner/.credentials
+[2025-06-24 21:32:31Z INFO HostContext] Well known directory 'Bin': '/Users/fiyinsomorin/Desktop/demo-github-actions/.github/workflows/actions-runner/bin'
+[2025-06-24 21:32:31Z INFO HostContext] Well known directory 'Root': '/Users/fiyinsomorin/Desktop/demo-github-actions/.github/workflows/actions-runner'
+[2025-06-24 21:32:31Z INFO HostContext] Well known config file 'MigratedCredentials': '/Users/fiyinsomorin/Desktop/demo-github-actions/.github/workflows/actions-runner/.credentials_migrated'
+[2025-06-24 21:32:31Z INFO ConfigurationStore] MigratedCredFilePath: /Users/fiyinsomorin/Desktop/demo-github-actions/.github/workflows/actions-runner/.credentials_migrated
+[2025-06-24 21:32:31Z INFO HostContext] Well known directory 'Bin': '/Users/fiyinsomorin/Desktop/demo-github-actions/.github/workflows/actions-runner/bin'
+[2025-06-24 21:32:31Z INFO HostContext] Well known directory 'Root': '/Users/fiyinsomorin/Desktop/demo-github-actions/.github/workflows/actions-runner'
+[2025-06-24 21:32:31Z INFO HostContext] Well known config file 'Service': '/Users/fiyinsomorin/Desktop/demo-github-actions/.github/workflows/actions-runner/.service'
+[2025-06-24 21:32:31Z INFO ConfigurationStore] ServiceConfigFilePath: /Users/fiyinsomorin/Desktop/demo-github-actions/.github/workflows/actions-runner/.service
+[2025-06-24 21:32:31Z INFO CommandSettings] Flag 'help': 'False'
+[2025-06-24 21:32:31Z INFO CommandSettings] Flag 'version': 'False'
+[2025-06-24 21:32:31Z INFO CommandSettings] Flag 'commit': 'False'
+[2025-06-24 21:32:31Z INFO CommandSettings] Flag 'check': 'False'
+[2025-06-24 21:32:31Z INFO CommandSettings] Command 'configure': 'False'
+[2025-06-24 21:32:31Z INFO CommandSettings] Command 'remove': 'False'
+[2025-06-24 21:32:31Z INFO CommandSettings] Command 'warmup': 'False'
+[2025-06-24 21:32:31Z INFO ConfigurationManager] LoadSettings
+[2025-06-24 21:32:31Z INFO ConfigurationStore] IsConfigured()
+[2025-06-24 21:32:31Z INFO ConfigurationStore] IsConfigured: False
+[2025-06-24 21:32:31Z INFO ConfigurationManager] Is configured: False
+[2025-06-24 21:32:31Z ERR  Terminal] WRITE ERROR: An error occurred: Not configured. Run config.(sh/cmd) to configure the runner.
+[2025-06-24 21:32:32Z ERR  Listener] GitHub.Runner.Common.NonRetryableException: Not configured. Run config.(sh/cmd) to configure the runner.
+   at GitHub.Runner.Listener.Configuration.ConfigurationManager.LoadSettings()
+   at GitHub.Runner.Listener.Runner.ExecuteCommand(CommandSettings command)
+   at GitHub.Runner.Listener.Program.MainAsync(IHostContext context, String[] args)

@@ -1,0 +1,9 @@
+﻿{
+  "agentId": 2,
+  "agentName": "Fiyins-MacBook-Pro",
+  "poolId": 1,
+  "poolName": "Default",
+  "serverUrl": "https://pipelinesghubeus5.actions.githubusercontent.com/3Yujt7y2HLsYjSPwTm8FXLoqX4Eogmmr0DxOP3TvLMevEGzv1W/",
+  "gitHubUrl": "https://github.com/fiyinsomorin/demo-github-actions",
+  "workFolder": "_work"
+}
