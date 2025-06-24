@@ -1,0 +1,44 @@
+name: CI/CD Demo
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+      - run: npm install
+      - run: npm test
+
+  deploy-to-dev:
+    needs: build-and-test
+    runs-on: ubuntu-latest
+    environment:
+      name: dev
+    steps:
+      - run: echo "Simulating deploy to DEV"
+
+  deploy-to-qa:
+    needs: deploy-to-dev
+    runs-on: ubuntu-latest
+    environment:
+      name: qa
+    steps:
+      - run: echo "Simulating deploy to QA"
+
+  deploy-to-prod:
+    needs: deploy-to-qa
+    runs-on: ubuntu-latest
+    environment:
+      name: prod
+    steps:
+      - run: echo "Simulating deploy to PROD"
